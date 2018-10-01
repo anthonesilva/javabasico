@@ -18,11 +18,12 @@ public class Exercicio16 {
 	/**
 	 * @param args
 	 */
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 		System.out.println("SEQUÊNCIA DE FIBONACCI ATÉ 500\n");
 
-		double enesimoTermo, termoNmenos1 = 0, termoNmenos2 = 1, resultado = 0;
+		double termoNmenos1 = 0, termoNmenos2 = 1, resultado = 0;
 		
 		System.out.println(Math.round(termoNmenos1));
 		System.out.println(Math.round(termoNmenos2));
