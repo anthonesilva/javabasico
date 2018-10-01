@@ -22,7 +22,7 @@ public class Exercicio15 {
 
 		System.out.println("SEQUÊNCIA DE FIBONACCI\n");
 		
-		double enesimoTermo, termoNmenos1 = 1, termoNmenos2 = 1, resultado = 0;
+		double enesimoTermo, termoNmenos1 = 0, termoNmenos2 = 1, resultado = 0;
 
 		Scanner scan = new Scanner(System.in);
 		
