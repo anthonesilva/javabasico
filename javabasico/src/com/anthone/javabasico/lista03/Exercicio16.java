@@ -7,8 +7,6 @@
  */
 package com.anthone.javabasico.lista03;
 
-import java.util.Scanner;
-
 /**
  * @author Anthone Silva
  *
