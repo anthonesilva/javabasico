@@ -7,8 +7,6 @@
  */
 package com.anthone.javabasico.lista03;
 
-import java.util.Scanner;
-
 /**
  * @author Anthone Silva
  *
@@ -20,19 +18,18 @@ public class Exercicio24 {
 	 */
 	public static void main(String[] args) {
 
-		System.out.println("CAIXA REGISTRADORA\n");
+		System.out.println("Preço do pão: R$ 0,18");
+		System.out.println("Panificadora Pão de Ontem - Tabela de preços");
 		
-		Scanner scan = new Scanner(System.in);
+		double valor;
 		
-		double produtos, totalCompra, dinheiro, troco;
-		
-		do {
-			System.out.println("Informe o valor do primeiro produto: ");
+		for(int i=1; i<=50; i++) {
 			
-		} while (produtos != 0);		
-		
-		scan.close();
-		
+			valor = i * 0.18;
+			
+			System.out.println(i + " - R$ " + valor);
+		}
+
 	}
 
 }
