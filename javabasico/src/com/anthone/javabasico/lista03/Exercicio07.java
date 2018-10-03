@@ -24,8 +24,7 @@ public class Exercicio07 {
 		
 		System.out.println("MAIOR NÚMERO");
 		
-		double numero;
-		double maiorNumero = Double.MIN_VALUE;
+		double numero, maiorNumero = Double.MIN_VALUE;
 		
 		for (int i=1; i<=5; i++) {
 			

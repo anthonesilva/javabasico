@@ -1,7 +1,18 @@
+/**
+ * 
+ * @author Anthone Silva
+ * 
+ * 3 de out de 2018
+ * 
+ */
 package com.anthone.javabasico.lista03;
 
 import java.util.Scanner;
 
+/**
+ * @author Anthone Silva
+ *
+ */
 public class Exercicio02 {
 
 	public static void main(String[] args) {
@@ -13,6 +24,7 @@ public class Exercicio02 {
 		String senha = "";
 		
 		do {
+			
 			System.out.println("Digite o usuário que deseja: ");
 			usuario = scan.nextLine();
 			
@@ -22,6 +34,7 @@ public class Exercicio02 {
 			if (usuario.equalsIgnoreCase(senha)) {
 				System.out.println("ERRO! O usuário não pode ser igual a senha, cadastre novamente.\n\n");
 			}
+			
 		} while (usuario.equalsIgnoreCase(senha));
 		
 		System.out.println("\nUsuário '" + usuario + "' cadastrado com sucesso!");

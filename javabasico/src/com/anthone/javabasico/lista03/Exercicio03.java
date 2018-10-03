@@ -1,7 +1,18 @@
+/**
+ * 
+ * @author Anthone Silva
+ * 
+ * 3 de out de 2018
+ * 
+ */
 package com.anthone.javabasico.lista03;
 
 import java.util.Scanner;
 
+/**
+ * @author Anthone Silva
+ *
+ */
 public class Exercicio03 {
 
 	public static void main(String[] args) {
@@ -10,13 +21,11 @@ public class Exercicio03 {
 		
 		System.out.println("FORMULÁRIO DE CADASTRO\n");
 		
-		String nome = "";
-		int idade = 0;
+		String nome = "", sexo;
+		int idade = 0, cont = 0;
 		double salario = 0;
-		String sexo;
 		char estadoCivil;
-		int cont = 0; 
-		
+
 		do {		
 			
 			do {

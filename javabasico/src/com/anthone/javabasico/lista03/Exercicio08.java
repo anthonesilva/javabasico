@@ -24,9 +24,7 @@ public class Exercicio08 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		double numero;
-		double soma = 0;
-		double media;
+		double numero, soma = 0, media;
 		
 		for (int i=1; i<=5; i++) {
 			
