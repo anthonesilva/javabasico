@@ -38,7 +38,7 @@ public class Exercicio13 {
 		
 		for (int i=1; i<expoente; i++) {
 			
-			resultado = resultado * base;
+			resultado *= base;
 			
 		}
 		
