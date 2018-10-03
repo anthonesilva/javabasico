@@ -23,8 +23,7 @@ public class Exercicio19 {
 		System.out.println("CALCULANDO MÉDIAS");
 		
 		double nota = 0;
-		int contNotas = 0;
-		int continuar = 0;
+		int contNotas = 0, continuar = 0;
 		
 		Scanner scan = new Scanner(System.in);
 
